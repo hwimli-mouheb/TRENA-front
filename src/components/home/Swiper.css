@@ -1,0 +1,17 @@
+
+    .swiper-slide {
+        display: grid;
+        text-align: center;
+        padding: 0.5rem 1rem;
+       
+        width: 18.75rem;
+     
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 6rem;
+        justify-self: center;
+        
+        margin-top: 0.6rem;
+      }

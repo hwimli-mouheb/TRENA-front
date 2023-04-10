@@ -1,0 +1,25 @@
+.formSection {
+   
+    
+    padding: 20px;
+    display: flex;
+   
+    
+}
+.formContainer {
+    flex: 1;
+    margin-top: 70px;
+    height: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 0;
+    overflow: hidden;
+}
+.imageContainer {
+   
+    
+    flex: 1;
+    margin-right: 90px;
+   height: 100%;
+   padding-top: 100px;
+}

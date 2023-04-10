@@ -1,0 +1,13 @@
+.switcher {
+    display: flex;
+    width: max-content;
+    border-radius: 5px;
+    border: 1px solid #FE982A;
+    
+}
+
+.password , .email {
+    padding:8px 20px;
+    cursor: pointer;
+}
+

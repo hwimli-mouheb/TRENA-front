@@ -1,0 +1,10 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: 100%;
+    padding: 2%;
+    border-right:max(0.2em,0.2vh) solid #6BC4A6;
+    justify-content: center;
+    align-items: center;
+}

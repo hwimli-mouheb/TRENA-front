@@ -1,0 +1,101 @@
+.signInForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 20px 0 0;
+}
+
+.signInForm .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   
+    margin-bottom: 50px;
+    
+}
+.signInForm .header  {
+    margin-bottom: 60px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.leftie{
+    align-items: center;
+   
+    margin: auto;
+    margin-right: 30px;
+    
+    
+}
+.rightie{
+   width: 250px;
+   
+    margin: auto;
+    padding-right: 100px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.headerIcon {
+    margin-right: 25px;
+    margin-top: 8px;
+}
+
+
+
+.submit h5 {
+    text-align: center;
+}
+
+.signInForm .note {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 8px;
+    color: #A5A5A5;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.signInForm .note:hover {
+    color: #6BC4A6;
+}
+.social {
+    margin: 23px;
+}
+.circleContainer {
+    position: absolute;
+    right: 0;
+    transform: rotate(50deg);
+  margin-right: 50px;
+}
+
+@media screen and (max-width:1188px) {
+   .signInForm .header {
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .signInForm .header {
+         font-size: 23px;
+     }
+     
+ }
+ @media screen and (max-width:600px) {
+    .circleContainer {
+        display: none;
+    }
+     
+ }
+
+.signinerror {
+    color: red;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
+    margin: 5px 0 4px 0;
+    display: block;
+    height: 18px;
+}

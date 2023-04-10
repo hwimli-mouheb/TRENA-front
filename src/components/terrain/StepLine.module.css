@@ -1,0 +1,28 @@
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.step .num {
+    background-color: #FE982A;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.step .num h2 {
+    margin-bottom: 110%;
+    margin-right: 50%;
+    color: #fff;
+    font-size: 50px;
+}
+.step .text {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+
+}

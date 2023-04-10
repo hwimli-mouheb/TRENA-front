@@ -1,0 +1,63 @@
+.formSection {
+    position: relative;
+    height: 100vh;
+    padding: 1px 0 0 0;
+    margin: -1px auto 0 auto;
+    display: grid;
+    align-items: center;
+    background-color: #fff;
+    
+    
+
+    
+    
+}
+.formContainer {
+    margin-top: -80px;
+    z-index: 5;
+}
+.formSection > img {
+    position: absolute;
+    top: 0;
+    left: -106px;
+    z-index: 2;
+}
+.toggleSection {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+   
+}
+@media screen and (max-width:500px) {
+    .formSection > img {
+      margin-left: -70px;
+        z-index: 99;
+
+    }
+    .formSection {
+        grid-auto-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .formSection > img {
+        position: absolute;
+        top: 0;
+        left: -40px;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .formContainer {
+        z-index: 5;
+        margin-top: -10px;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .toggleSection {
+        position: unset;
+        z-index: -99;
+    }
+}
+

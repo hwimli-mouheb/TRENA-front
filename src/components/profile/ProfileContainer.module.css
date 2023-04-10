@@ -1,0 +1,61 @@
+.edit {
+    display: flex;
+    
+    padding: 1%;
+    width: 100%;
+    
+    
+    
+}
+.content {
+    flex: 1;
+}
+.side {
+    display: flex;
+    width: 100%;
+}
+.progress {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggleSection {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+  
+    position: relative;
+    position: sticky;
+    display: none;
+
+}
+.toggleSection .profilePic {
+    width:max(3em,4vw);
+    height: max(3em,4vw);
+}
+.toggleSection .toggle {
+    width:max(1.2em,2vw);
+    height: max(1.2em,2vw);
+    margin-top: 10%;
+    cursor: pointer;
+}
+.toggleSection .name {
+    font-size: max(1em,1.3vw) ;
+    color: #A5A5A5;
+    font-weight: 600;
+   
+   
+}
+.content {
+    display: flex;
+    justify-content: center;
+ 
+}
+.content .editP {
+    width: max-content;
+}
+@media screen and (max-width:1220px) {
+  
+
+}

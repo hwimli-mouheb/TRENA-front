@@ -1,0 +1,43 @@
+.pictureSection {
+    background: url(../../../assets/pic.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: contrast(70%);
+    animation: backAn 150s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+    
+    
+}
+.picture .hide {
+    transform: translateY(0px);
+    transition: transform 1s ease-out 1s;
+}
+.picture {
+  
+   
+    width: 100%;
+}
+.startBtn {
+    position: absolute;
+   bottom: 80px;
+   display: none;
+    
+}
+@keyframes backAn {
+    0%   { background-position:0% 100%; }
+    50%   { background-position:100% 100%; }
+    100%   { background-position:0% 100%; }
+ }
+
+ @media screen and (max-width:1000px) {
+
+    .startBtn {
+        display: block;
+    }
+     
+ }

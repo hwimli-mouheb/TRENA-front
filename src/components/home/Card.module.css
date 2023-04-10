@@ -1,0 +1,37 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+cursor: pointer;
+transition: 0.3 ease-in-out;
+}
+.cardWrapper span {
+   
+    color:#A5A5A5;
+    z-index: 99;
+    font-size: 30px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    
+}
+.card {
+
+    width: 320px;
+    height: 130px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0 20px;
+    
+}
+.card h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #ff982A;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.card p {
+    color: #A5A5A5;
+}

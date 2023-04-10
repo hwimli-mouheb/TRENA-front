@@ -1,0 +1,11 @@
+.socialBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.socialBox img {
+    cursor: pointer;
+}
+.google {
+    margin-right: 15px;
+}

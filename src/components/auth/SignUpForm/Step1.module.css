@@ -1,0 +1,62 @@
+.stepOne .submit {
+    margin-top: -8px;
+}
+
+.stepOne .submit h5 {
+    text-align: center;
+}
+
+.stepOne .note {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 8px;
+    color: #A5A5A5;
+    cursor: pointer;
+}
+
+.stepOne .nextSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.noteP1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #A5A5A5;
+    cursor: pointer;
+    padding: 0;
+    margin-top: -8px;
+}
+
+.noteP2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #A5A5A5;
+    cursor: pointer;
+    padding: 0;
+    margin-top: -15px;
+}
+
+.signuperror {
+    color: red;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    margin: 5px 0 4px 0;
+    display: block;
+    height: 18px;
+
+}
+

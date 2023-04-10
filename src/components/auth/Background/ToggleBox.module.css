@@ -1,0 +1,28 @@
+.toggleBox {
+    width: 60px;
+    height: 30px;
+    background: #ff8800;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.toggleSection {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 10px 50px 20px;
+}
+
+.toggleSection h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #A5A5A5;
+    cursor: pointer;
+    margin-right: 20px;
+}

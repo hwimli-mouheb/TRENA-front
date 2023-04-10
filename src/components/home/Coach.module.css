@@ -1,0 +1,114 @@
+.coachSection .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.coachSection .title h2 {
+    color: #005326;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+.coachWrapper {
+ padding: 20px;
+    height: 500px;
+   
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   align-items: center;
+}
+.coachWrapper .intro  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.coachWrapper .intro .title {
+    font-size: 30px;
+    color: #005326;
+    text-align: start;
+}
+
+.coachWrapper .wrapper .outer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.coachWrapper .wrapper .outer  .card {
+    background: rgba(107, 196, 166, 0.3);
+    width: 430px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    opacity: 1;
+    position: absolute;
+    justify-content: space-between;
+    border-radius: 100px 20px 20px 100px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    pointer-events: none;
+    animation: animate 15s linear infinite;
+    
+}
+
+.coachWrapper .wrapper .outer:hover .coachWrapper .wrapper .outer .card {
+    animation-play-state: paused;
+}
+
+.coachWrapper .wrapper .outer .card .content {
+    display: flex;
+    align-items: center;
+} 
+.coachWrapper .wrapper .outer .card .content .img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: -15px;
+    border-radius: 50%;
+    background: 100%;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    background-color: rgba(107, 196, 166, 0.3);
+
+}
+.coachWrapper .wrapper .outer .card .content .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.coachWrapper .wrapper .outer .card .content .details {
+    margin-left: 80px;
+}
+.coachWrapper .wrapper .outer .card .content .details span {
+    font-size: 18px;
+    font-size: 600;
+}
+
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateY(100%) scale(0.5);
+        
+    }
+    5%, 20% {
+        opacity: 0.4;
+        transform: translateY(100%) scale(0.7);
+
+    }
+    25%, 40% {
+        opacity: 1;
+        transform: translateY(0%) scale(1);
+        pointer-events: auto;
+    }
+    45%, 60% {
+        opacity: 0.4;
+        transform: translateY(-100%) scale(0.7);
+    }
+    65%, 100% {
+        opacity: 0;
+        transform: translateY(-100%) scale(0.5);
+    }
+    
+}

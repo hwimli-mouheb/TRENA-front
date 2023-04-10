@@ -1,0 +1,19 @@
+.btn {
+    height: max(1.9em,1.2vh);;
+    color: #fff;
+    font-weight: 550;
+    font-size: max(1.2em,1.5vw);
+    border: none;
+    text-align: center;
+    border-radius: max(0.08em,0.5vw);
+    width: 100%;
+    cursor: pointer;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    font-family: inherit;
+
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

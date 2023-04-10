@@ -1,0 +1,29 @@
+.stepWrapper{
+    background: url(../../assets/terrainBack.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: contrast(80%);
+    
+    
+}
+.stepContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stepContainer .step1 {
+    margin-bottom: 20%;
+    flex: 1;
+    
+}
+.stepContainer .step3 {
+    margin-top: 20%;
+    flex: 1;
+    
+}
+.stepContainer .step2 {
+    
+    flex: 1;
+    
+}

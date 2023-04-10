@@ -1,0 +1,187 @@
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title {
+  margin-top: 0px;
+}
+.signUpForm .header {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff8800;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+    
+}
+.signUpForm .header h2 {
+    margin-bottom: 10px;
+}
+
+.headerIcon {
+    margin-right: 25px;
+    margin-top: 8px;
+}
+
+.submit {
+    margin-top: 0px;
+}
+
+.submit h5 {
+    text-align: center;
+}
+
+.signUpForm .note {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 8px;
+    color: #A5A5A5;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.signUpForm .note:hover {
+    color: #ff8800;
+}
+.social {
+  margin-top: -5px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.circleContainer {
+    position: absolute;
+    right: 0;
+    transform: rotate(50deg);
+  margin-right: 50px;
+}
+.formContent {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 70px ;
+}
+
+
+
+.formContent button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    outline:0;
+    z-index: 99;
+  }
+  
+  .arrowLeft  svg,.arrowRight svg {
+    width: 60px;
+    height: 80px;
+  }
+  
+  .formContent  .arrowLeft {
+    cursor: pointer;
+
+    width: 70px;
+    height: 90px;
+
+  }
+
+  .formContent  .arrowRight {
+    cursor: pointer;
+    width: 70px;
+    height: 90px;
+
+  }
+ 
+  .formContent  .arrowLeft:hover polyline,
+  .formContent .arrowLeft:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .formContent .arrowLeft:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  .formContent .arrowRight:hover polyline,
+  .formContent .arrowRight:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .formContent .arrowRight:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  polyline {
+    transition: all 250ms ease-in-out;
+  }
+  @media screen and (max-width:700px) {
+    .signUpForm .header {
+         font-size: 23px;
+     }
+     
+ }
+ @media screen and (max-width:600px) {
+    .circleContainer {
+        display: none;
+    }
+    .formContent  .arrowRight {
+
+      width: 50px;
+      height: 70px;
+  
+    }
+    .formContent  .arrowLeft {
+      cursor: pointer;
+      width: 50px;
+      height: 70px;
+  
+    }
+    .formContent  .arrowRight svg {
+
+      width: 40px;
+      height: 60px;
+  
+    }
+    .formContent  .arrowLeft svg{
+      cursor: pointer;
+      width: 40px;
+      height: 60px;
+  
+    }
+    .formContent {
+      grid-gap:30px;
+    }
+     
+ }
+ @media screen and (max-width:550px) {
+
+  .formContent  .arrowRight {
+
+    width: 50px;
+    height: 70px;
+
+  }
+  .formContent  .arrowLeft {
+    cursor: pointer;
+    width: 50px;
+    height: 70px;
+
+  }
+  .formContent {
+    grid-gap:30px;
+  }
+   
+}

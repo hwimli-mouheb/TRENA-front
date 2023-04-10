@@ -1,0 +1,127 @@
+.aboutus {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.aboutus .title  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.aboutus .description {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+}
+.aboutus .description p {
+    color: #A5A5A5;
+}
+.aboutus .description h2 {
+    color: #005326;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter .stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.aboutus
+ .title h2 {
+    color: #005326;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.logo {
+    width: 180px;
+    height: 80px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.aboutus .content {
+    display: flex;
+   
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.aboutus .content .cardsSection {
+    display: flex;
+    position: relative;
+}
+.aboutus .content .cardsSection .circle {
+    margin-left: -620px ;
+    width: 1053px;
+    height: 776px;
+    border-radius: 50%;
+    background: rgba(107, 196, 166, 0.3);
+}
+.aboutus .content .cardsSection .cards {
+    position: absolute;
+    margin-top: 130px;
+    
+}
+.aboutus .content .cardsSection .cards div {
+    margin-bottom: 15px;
+}
+.circleS {
+    width: 447px;
+    height: 583px;
+    background: #FFFFFF;
+    border: 1px solid #6BC4A6;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-right: -280px;
+        
+}
+.innercircle {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 450px;
+    height: 480px;
+    background: rgba(107, 196, 166, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:50% ;
+}
+.smallcircle , .bigcircle {
+    position: absolute;
+}
+.smallcircle {
+    margin-top: 60px;
+    margin-left: 53px;
+}
+.bigcircle {
+   margin-top: -50px;
+    margin-left: 45px;
+}
+
+@media screen and (max-width: 970px) {
+    .circleS {
+        display: none;
+    }    
+}
+@media screen and (max-width: 790px) {
+    .aboutus .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    } 
+}

@@ -1,0 +1,96 @@
+.terrainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.terrainContainer .title h2 {
+    color: #005326;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terrainContainer .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 40px;
+    gap: 50px;
+}
+.terrainContainer .content .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.terrainContainer .content .left .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.terrainContainer .content .left img{
+    border-radius: 20px;
+    width: 90%;
+}
+.terrainContainer .content .right {
+    display: flex;
+    flex-direction: column;
+}
+.terrainContainer .content .right .group {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.terrainContainer .content .right .group .label,.terrainContainer .content .right .groupRes .label {
+    font-size: 20px;
+    margin-right: 3px;
+    font-weight: 600;
+}
+.terrainContainer .content .right .groupRes {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+
+   
+}
+.terrainContainer .content .right .groupRes .headers {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    color: #005326;
+    font-size: 18px;
+    font-weight: 600;
+}
+.terrainContainer .content .right .groupRes .calendrier {
+ 
+    display: flex;
+    flex-direction: column;
+  
+}
+.terrainContainer .content .right .groupRes .calendrier .line {
+   
+    font-size: 16px;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+    .terrainContainer .content {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 40px;
+       
+    }
+    
+}

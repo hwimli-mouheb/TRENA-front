@@ -1,0 +1,26 @@
+.filters {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+.input {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+}
+.input img {
+    width: 25px;
+    height: 25px;
+}
+.input span {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+
+}

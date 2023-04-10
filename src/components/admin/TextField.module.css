@@ -1,0 +1,95 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max(2.5em,3vw);
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+
+    border-radius: max(0.08em,0.5vw);
+    outline: 0;
+    background: #F0F0FF;
+    border: max(0.16em,0.2vw) solid #A5A5A5;
+}
+
+
+.errorIcon {
+    font-size: 20px;
+    color: red;
+    margin-right: 10px;
+    display: none;
+}
+
+.passIcon {
+    font-size: 20px;
+    color: #A5A5A5;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.passIcon:hover {
+    color: #005236;
+}
+
+.input input {
+    width: 100%;
+    height: max(1.79em,2.5vh);
+    padding: 0 max(1em,1.5vw);
+    font-size: max(1.2em,1.5vw);
+    border-bottom-left-radius: max(0.08em,0.5vw);
+    border-top-left-radius: max(0.08em,0.5vw);
+    border: none;
+    outline: none;
+}
+
+label {
+    color: #A5A5A5;
+    font-weight: 500;
+    margin-bottom: max(0.8em,1.2vw);
+    font-size: max(1.2em,1.4vw);
+}
+
+input.formControl,
+input.formControl:focus {
+    background: #F0F0FF;
+}
+
+.inputformControlisInvalid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 37px;
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: 0;
+    background: #F0F0FF;
+}
+
+.error {
+    color: red;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
+    margin: 5px 0 4px 0;
+    display: block;
+    height: 18px;
+
+}
+@media screen and (max-width:810px) {
+    
+    .input , .input input {
+        height: 90%;
+    }
+    label , .input input {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,12 @@
+.sideitem {
+
+    width: max(4em,5vw);
+    height: max(4em,5vw);
+    border-radius: max(1em,1.2vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: max(1em,1vw) 0 ;
+    cursor: pointer;
+}
+
